@@ -1,0 +1,5 @@
+pip install requests psutil
+TELEGRAM_BOT_TOKEN = "8066368285:AAF8bxqmYWE2-hX6fgxPpYZIYz1sep5nDcc"
+TELEGRAM_CHAT_ID = "6661552092"
+
+pyinstaller -w -F -i="C:\workspace\message_20250329\logo.ico" --add-data="logo.ico;./" main.py
